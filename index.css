@@ -282,4 +282,132 @@ span{
 
     
   }
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
 
+.product {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 300px;
+    padding: 20px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #e91e63;
+}
+
+.product-description {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.buy-now {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now:hover {
+    background-color: #c2185b;
+}
+[data-products] {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+[data-product] {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 300px;
+    padding: 20px;
+    position: relative;
+}
+
+[data-product]:hover {
+    transform: scale(1.05);
+}
+
+[data-product-img] {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.3s ease;
+}
+
+[data-product-title] {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #e91e63;
+}
+
+[data-product-description] {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+[data-buy-now] {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+[data-buy-now]:hover {
+    background-color: #c2185b;
+}
+
+[data-rating] {
+    font-size: 1.2em;
+    color: #ffd700; /* Gold star color */
+    margin: 10px 0;
+}
+
+[data-discount] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff5722;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+[data-product]:hover [data-product-img] {
+    transform: scale(1.1);
+}
