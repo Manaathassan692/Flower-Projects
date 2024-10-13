@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+}
+.header{
+    padding-left: 60px;
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    line-height: 30px;
+    background-color: white;
+    
+
+}
+
+.header h1{
+    font-size: 2em;
+    font-style: inherit;
+    margin-left: 30px;
+}
+.main{
+    display: flex;
+}
+.main ul {
+    display: flex;
+    gap: 60px;
+
+}
+.main ul li {
+    list-style: none;
+    font-size: 1.4em;
+}
+.main ul li a{
+    text-decoration-line: none;
+    color: black;
+}
+.main ul li a :hover{
+    color: pink;
+
+}
+.main ul li:hover{
+    color: pink;
+    cursor: pointer;
+}
+.icons{
+    padding-right: 40px;
+}
+.icons i{
+    gap: 70px;
+    font-size: 1.4em;
+}
+.icons i:hover{
+    color: pink;
+    cursor: pointer;
+}
+.section2{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    margin-top: 20px;
+}
+.since{
+    margin-left: 16%;
+    padding-top: 12%;
+}
+.since h1{
+    padding-bottom: 10px;
+    font-size: 4em;
+}
+.since h3{
+    color: palevioletred;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+.since p{
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+.btn{
+
+
+}
+.botton{
+    min-height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.btn button:hover{
+    background-color: palevioletred;
+
+}
+.bg{
+    background-color: rgb(252, 215, 221);
+    min-height: 40px;
+    width: 70%;
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 13%;
+    /* margin-right: 20%; */
+    
+}
+span{
+    color: rgb(223, 68, 119);
+}
+.bg h1{
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+.us iframe{
+    margin-left: 19%; 
+    min-height: 320px;
+    width: 530px;
+    border-radius: 30px;
+}
+
+.section4{
+    display: flex;
+
+}
+.left-side{
+    margin-left: 18%;
+    margin-bottom: 25px;
+}
+.left-side h1{
+    font-size: 2.5em;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.left-side p{
+    font-size: 1.2em;
+    padding-bottom: 25px;
+}
+.botton1{
+    min-height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.btn1 button:hover{
+    background-color: palevioletred;
+
+}
+.section5{
+
+}
+.bg1{
+    background-color: rgb(252, 215, 221);
+    min-height: 40px;
+    width: 70%;
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 13%;
+    /* margin-right: 20%; */
+    
+}
+span{
+    color: rgb(223, 68, 119);
+}
+.bg1 h1{
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+.section1-r{
+    padding-top: 60px;
+
+}
+.since-r{
+    display: flex;
+
+}
+.text-r{
+    padding-top: 90px;
+    padding-left: 60px;
+}
+.text-r h1{
+    color: palevioletred;
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+.img-r {
+    padding-left: 290px;
+    padding-top: 60px;
+
+}
+.img-r img{
+    width: 450px;
+    min-height: 140px;
+}
+.btn2{
+    padding-top: 20px;
+
+}
+.botton2{
+    min-height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: palevioletred;
+    color: white;
+
+}
+.btn2 button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+  }
+  
+  .reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Review Card Styles */
+  .review {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px grey;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .review-header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .reviewer-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .reviewer-info p {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  .stars {
+    color: palevioletred;
+  }
+  
+  .review-body p {
+    margin: 0;
+    color: #555;
+    line-height: 1.5;
+  }
+  .section1-p{
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 90vh; */
+    
+
+    
+  }
+

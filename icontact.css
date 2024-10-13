@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+}
+.header{
+    padding-left: 60px;
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    line-height: 30px;
+    background-color: white;
+    
+
+}
+
+.header h1{
+    font-size: 2em;
+    font-style: inherit;
+    margin-left: 30px;
+}
+.main{
+    display: flex;
+}
+.main ul {
+    display: flex;
+    gap: 60px;
+
+}
+.main ul li {
+    list-style: none;
+    font-size: 1.4em;
+}
+.main ul li a{
+    text-decoration-line: none;
+    color: black;
+}
+.main ul li a :hover{
+    color: pink;
+
+}
+.main ul li:hover{
+    color: pink;
+    cursor: pointer;
+}
+.icons{
+    padding-right: 40px;
+}
+.icons i{
+    gap: 70px;
+    font-size: 1.4em;
+}
+.icons i:hover{
+    color: pink;
+    cursor: pointer;
+}
